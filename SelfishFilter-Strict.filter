@@ -309,7 +309,7 @@ Show
 #Jewellery
 Hide
     Class "Ring" "Amulet" "Belt"
-    Rarity == "Magic"
+    Rarity "Magic"
 Show
     Class "Ring" "Amulet" "Belt" "Jewel"
     SetTextColor 0 0 0 255
