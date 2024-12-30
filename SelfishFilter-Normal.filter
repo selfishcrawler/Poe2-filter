@@ -181,14 +181,14 @@ Show
 #T5 currency
 Show
     Class "Currency"
-    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
+    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Chance Shard"
     SetTextColor 220 190 132
     SetFontSize 40
 
 #Tier F currency
 Show
     Class "Currency"
-    BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+    BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
     SetTextColor 220 190 132
     SetFontSize 20
 
