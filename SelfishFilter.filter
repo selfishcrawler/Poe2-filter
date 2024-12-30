@@ -148,6 +148,9 @@ PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
+Hide
+BaseType "Uncut Support Gem"
+
 # Make skill gems pop during campaign
 Show
 AreaLevel < 65
@@ -222,7 +225,7 @@ PlayEffect Cyan
 PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
-Show 
+Hide
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
 PlayEffect Cyan Temp
@@ -391,6 +394,9 @@ SetFontSize 8
 #--------------------------
 # Waystones
 #--------------------------
+
+Hide
+WaystoneTier < 11
 
 Show
 WaystoneTier > 10
