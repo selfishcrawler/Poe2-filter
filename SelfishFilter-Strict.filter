@@ -83,7 +83,7 @@ Show
     SetBorderColor 255 207 132
     #SetBackgroundColor 76 51 12
     SetBackgroundColor 255 0 0
-    PlayAlertSound 2 300
+    PlayAlertSound 16 300
     PlayEffect White
     MinimapIcon 2 White Circle
     SetFontSize 45
@@ -226,9 +226,12 @@ Show
 
 Show
     BaseType " Precursor Tablet"
-    SetTextColor 255 255 255
+    SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 51 153
+    MinimapIcon 1 Pink Moon
+    PlayEffect Pink
+    SetFontSize 40
 
 Show
     WaystoneTier > 13
@@ -306,9 +309,14 @@ Show
     MinimapIcon 1 White Circle
 
 #Items
+#Garbage weapons
+Hide
+    BaseType " Cultist Bow"
+Hide
+    Class "Maces"
 #Jewellery
 Hide
-    Class "Ring" "Amulet" "Belt"
+    Class "Ring" "Belt"
     Rarity "Magic"
 Show
     Class "Ring" "Amulet" "Belt" "Jewel"
