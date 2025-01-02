@@ -33,17 +33,7 @@ Show
 #T1 uniques
 Show
     Rarity Unique
-    BaseType == "Ultimate Mana Flask" "Ultimate Life Flask" "Heavy Belt" "Furtive Wraps" "Diamond" "Utility Belt" "Grand Regalia" "Sapphire Ring" "Emerald Ring" "Stellar Amulet"
-    SetFontSize 45
-    SetTextColor 255 0 0 255
-    SetBorderColor 255 0 0 255
-    SetBackgroundColor 255 255 255 255
-    PlayAlertSound 6 300
-    PlayEffect Red
-    MinimapIcon 0 Red Star
-
-Show
-    BaseType == "Ritual Precursor Tablet"
+    BaseType == "Ultimate Mana Flask" "Ultimate Life Flask" "Heavy Belt" "Furtive Wraps" "Diamond" "Utility Belt" "Grand Regalia" "Sapphire Ring" "Emerald Ring" "Stellar Amulet" "Ring"
     SetFontSize 45
     SetTextColor 255 0 0 255
     SetBorderColor 255 0 0 255
@@ -244,6 +234,10 @@ Show
     PlayEffect White
     MinimapIcon 1 Red Square
     SetFontSize 40
+
+Hide
+    Class "Currency"
+    BaseType "Flesh Catalyst" "Carapace Catalyst" "Uul-Netol's Catalyst" "Sibilant Catalyst"
 
 Show
     Class "Currency"
