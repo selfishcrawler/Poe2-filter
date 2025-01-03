@@ -316,7 +316,7 @@ Show
 Hide
     BaseType "Cultist Bow"
 Hide
-    Class "Maces" "Quivers" "Foci" "Shields" "Body Armours" "Crossbows" "Quarterstaves" "Staves"
+    Class "Maces" "Quivers" "Foci" "Shields" "Body Armours" "Crossbows" "Quarterstaves" "Staves" "Bows"
     
 Show
     Class "Jewel"
