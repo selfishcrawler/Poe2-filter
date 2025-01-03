@@ -93,12 +93,20 @@ Show
 #Level 19 gems
 Show
     ItemLevel == 19
-    BaseType "Uncut Spirit Gem" "Uncut Skill Gem"
+    BaseType "Uncut Skill Gem"
     SetTextColor 20 240 240
     SetBorderColor 20 240 240
     PlayEffect Cyan
     MinimapIcon 1 Cyan Triangle
     SetFontSize 24
+Show
+    ItemLevel == 19
+    BaseType "Uncut Spirit Gem"
+    SetTextColor 20 240 240
+    SetBorderColor 20 240 240
+    PlayEffect Cyan
+    MinimapIcon 1 Cyan Triangle
+    SetFontSize 38
 
 #--------------------------
 # Gold
