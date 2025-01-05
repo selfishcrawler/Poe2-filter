@@ -177,7 +177,7 @@ Show
 #T4 currency
 Show
     Class "Currency"
-    BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Chance Shard"
+    BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
     SetTextColor 255 207 132
     SetBorderColor 255 207 132
     SetBackgroundColor 76 51 12
@@ -185,13 +185,6 @@ Show
     PlayEffect White
     MinimapIcon 2 White Circle
     SetFontSize 45
-
-#T5 currency
-Show
-    Class "Currency"
-    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
-    SetTextColor 220 190 132
-    SetFontSize 40
 
 #Tier F currency
 Hide
