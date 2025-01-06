@@ -235,7 +235,7 @@ Show
     SetFontSize 40
 
 Show
-    WaystoneTier > 13
+    WaystoneTier > 14
     BaseType "Waystone"
     #Rarity <= Rare
     SetTextColor 0 0 0
