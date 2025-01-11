@@ -332,6 +332,17 @@ Show
     MinimapIcon 2 Green Diamond
 
 Show
+    Class "Ring"
+    BaseType "Breach Ring"
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 0 153 0 255
+    SetFontSize 45
+    PlayAlertSound 9 300
+    PlayEffect Green
+    MinimapIcon 2 Green Diamond
+
+Show
     Class "Ring" "Amulet" "Belt"
     Rarity Rare
     SetTextColor 0 0 0 255
