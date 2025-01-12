@@ -177,7 +177,7 @@ Show
 #T4 currency
 Show
     Class "Currency"
-    BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
+    BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
     SetTextColor 255 207 132
     SetBorderColor 255 207 132
     SetBackgroundColor 76 51 12
