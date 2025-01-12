@@ -189,7 +189,7 @@ Show
 #Tier F currency
 Hide
     Class "Currency"
-    BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
+    BaseType "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Lesser Jeweller's Orb"
     SetTextColor 220 190 132
     SetFontSize 20
 
