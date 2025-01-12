@@ -235,7 +235,20 @@ Show
     SetFontSize 40
 
 Show
-    WaystoneTier > 13
+    WaystoneTier > 14
+    AnyEnchantment True
+    BaseType "Waystone"
+    #Rarity <= Rare
+    SetTextColor 0 0 255
+    SetBorderColor 0 0 255
+    SetBackgroundColor 255 255 255
+    PlayAlertSound 5 300
+    PlayEffect White
+    MinimapIcon 1 Red Square
+    SetFontSize 45
+
+Show
+    WaystoneTier > 14
     BaseType "Waystone"
     #Rarity <= Rare
     SetTextColor 0 0 0
